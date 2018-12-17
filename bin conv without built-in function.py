@@ -26,9 +26,9 @@ def convert(x):
 def changeDigit(digit):
     decimal =     [10 , 11 , 12 , 13 , 14 , 15 ]
     hexadecimal = ["A", "B", "C", "D", "E", "F"]
-    for char in range(7):
-        if digit == decimal[char - 1]:
-            digit = hexadecimal[char - 1]
+    for char in range(6):
+        if digit == decimal[char]:
+            digit = hexadecimal[char]
     return digit
     
     
